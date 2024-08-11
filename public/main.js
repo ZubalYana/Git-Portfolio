@@ -4,7 +4,6 @@ axios.get('http://localhost:3000/user-info')
     $('.photoCon').append(
         `<img class="userPhoto" src="${res.data.user.avatar_url}" alt="">`
     )
-    $('.PortfolioText').text(`Portfolio ${res.data.user.login}`)
 
     for(let el of res.data.repos){
         if(el.description){
