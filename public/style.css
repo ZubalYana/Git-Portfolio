@@ -12,9 +12,10 @@
   align-items: center;
   flex-direction: column;
   padding: 40px;
+  background-color: #333;
 }
 .wrap h2 {
-  color: #333;
+  color: #ffffff;
   font-weight: 600;
   font-size: 32px;
 }
@@ -34,11 +35,11 @@
 .wrap .reposCon .repo {
   width: 400px;
   height: 180px;
-  border: #333 2px solid;
+  border: #fff 2px solid;
   border-radius: 20px;
   padding: 15px;
   margin-right: 20px;
-  color: #333;
+  color: #fff;
 }
 .wrap .reposCon .repo .repoName {
   font-size: 24px;
@@ -60,8 +61,8 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  background-color: #333;
-  color: #fff;
+  background-color: #fff;
+  color: #333;
   font-size: 16px;
   font-weight: 600;
   cursor: pointer;
