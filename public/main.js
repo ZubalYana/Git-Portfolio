@@ -15,7 +15,8 @@ axios.get('http://localhost:3000/user-info')
                     <div class="repoName">${el.name}</div>
                     <div class="repoDes">${el.description}</div>
                     <div class="buttons">
-                    <a href="${el.html_url}"><div class="button" id='OpenPage'>Open repo</div></a>
+                    <a href="${el.html_url}" target="_blank"><div class="button" id='OpenPage'>Open repo</div></a>
+                    <a href="${el.html_url}" target="_blank"><div class="button" id='OpenPage'>Open project</div></a>
                     </div>
                     </div>
                     `

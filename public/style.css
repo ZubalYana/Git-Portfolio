@@ -119,7 +119,7 @@
 }
 .wrap .reposCon .repo {
   width: 430px;
-  height: 200px;
+  height: 215px;
   border: #fff 2px solid;
   border-radius: 20px;
   padding: 20px;
@@ -134,13 +134,18 @@
   font-size: 16px;
   font-weight: 300;
   margin-top: 10px;
+  height: 80px;
 }
 .wrap .reposCon .repo .buttons {
-  width: 100%;
+  width: 320px;
   display: flex;
   justify-content: space-between;
 }
-.wrap .reposCon .repo .buttons .button {
+.wrap .reposCon .repo .buttons a {
+  color: #333;
+  text-decoration: none;
+}
+.wrap .reposCon .repo .buttons a .button {
   width: 150px;
   height: 50px;
   display: flex;
@@ -149,7 +154,13 @@
   background-color: #fff;
   color: #333;
   font-size: 16px;
-  font-weight: 600;
+  font-weight: 700;
   cursor: pointer;
   border-radius: 16px;
+  transition: 0.5s ease-in-out;
+}
+.wrap .reposCon .repo .buttons a .button:hover {
+  background-color: #333;
+  color: #fff;
+  border: 2px #fff solid;
 }/*# sourceMappingURL=style.css.map */
