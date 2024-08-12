@@ -56,11 +56,15 @@
   font-size: 42px;
   margin-top: 30px;
 }
-.wrap .userCon .socialMedia i {
+.wrap .userCon .socialMedia a {
+  color: #fff;
+  text-decoration: none;
+}
+.wrap .userCon .socialMedia a i {
   cursor: pointer;
   transition: 0.5s ease-in-out;
 }
-.wrap .userCon .socialMedia i:hover {
+.wrap .userCon .socialMedia a i:hover {
   color: #000;
 }
 .wrap .reposCon {
