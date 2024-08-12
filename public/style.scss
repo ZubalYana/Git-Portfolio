@@ -12,7 +12,10 @@
     padding: 40px;
     background-color: #333;
     .userCon{
+        width: 100%;
+        display: flex;
         .photoCon{
+            margin-right: 50px;
             img{
                 width: 300px;
                 height: 300px;
