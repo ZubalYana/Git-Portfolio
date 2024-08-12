@@ -11,19 +11,23 @@
     flex-direction: column;
     padding: 40px;
     background-color: #333;
-    h2{
-        color: #ffffff;
-        font-weight: 600;
-        font-size: 32px;
-    }
-    .photoCon{
-        img{
-            width: 300px;
-            height: 300px;
-            border-radius: 50%;
-            border: 2px #fff solid;
+    .userCon{
+        .photoCon{
+            img{
+                width: 300px;
+                height: 300px;
+                border-radius: 50%;
+                border: 2px #fff solid;
+            }
+        }
+        h2{
+            color: #ffffff;
+            font-weight: 600;
+            font-size: 32px;
         }
     }
+
+
     .reposCon{
         width: 100%;
         display: flex;
