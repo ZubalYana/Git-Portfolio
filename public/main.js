@@ -47,4 +47,6 @@ new TypeIt("#testText", {
     .type('<em><strong class="font-semibold">Yana Zubal.</strong></em>', {
       speed: 100,
     })
+    .delete(1)
+    .type('!', { delay: 300 })
     .go();

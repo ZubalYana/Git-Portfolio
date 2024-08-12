@@ -31,6 +31,13 @@
   font-weight: 600;
   font-size: 32px;
 }
+.wrap .userCon .mainText {
+  color: #fff;
+  font-size: 16px;
+  font-weight: 300;
+  width: 600px;
+  margin-top: 20px;
+}
 .wrap .reposCon {
   width: 100%;
   display: flex;
