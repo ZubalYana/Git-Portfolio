@@ -15,9 +15,26 @@
   color: #fff;
 }
 
+::-webkit-scrollbar {
+  width: 12px;
+}
+
+::-webkit-scrollbar-track {
+  background: #333;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #fff;
+  border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #000;
+}
+
 .wrap {
   width: 100%;
-  height: 100vh;
+  min-height: 100vh;
   display: flex;
   flex-direction: column;
   padding: 40px;
@@ -96,15 +113,17 @@
 .wrap .reposCon {
   width: 100%;
   display: flex;
-  margin-top: 15px;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  margin-top: 20px;
 }
 .wrap .reposCon .repo {
-  width: 400px;
-  height: 180px;
+  width: 430px;
+  height: 200px;
   border: #fff 2px solid;
   border-radius: 20px;
-  padding: 15px;
-  margin-right: 20px;
+  padding: 20px;
+  margin-bottom: 20px;
   color: #fff;
 }
 .wrap .reposCon .repo .repoName {
