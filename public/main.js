@@ -28,7 +28,7 @@ axios.get('http://localhost:3000/user-info')
 //heading script
 new TypeIt("#testText", {
     speed: 50,
-    startDelay: 900,
+    startDelay: 1500,
   })
     .type("ello, I", { delay: 100 })
     .move(-7, { delay: 100 })

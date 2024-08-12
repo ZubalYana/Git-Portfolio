@@ -33,7 +33,7 @@
             font-size: 32px;
         }
         .mainText{
-            color: #fff;
+            color: #e5e5e5;
             font-size: 16px;
             font-weight: 300;
             width: 1100px;
@@ -81,12 +81,16 @@
         }
 
     }
-
-
+    #reposTitle{
+        font-size: 32px;
+        color: #fff;
+        font-weight: 700;
+        margin-top: 35px;
+    }
     .reposCon{
         width: 100%;
         display: flex;
-        margin-top: 30px;
+        margin-top: 15px;
         .repo{
             width: 400px;
             height: 180px;
